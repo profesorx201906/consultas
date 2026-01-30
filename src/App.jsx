@@ -163,7 +163,6 @@ export default function App() {
             <th>Inicio</th>
             <th>Finalización</th>
             <th>Número de ficha</th>
-            <th>Código de solicitud</th>
           </tr>
         </thead>
         <tbody>
@@ -176,7 +175,6 @@ export default function App() {
               <td>{r[keys.ini] || ''}</td>
               <td>{r[keys.fin] || ''}</td>
               <td>{r[keys.ficha] || ''}</td>
-              <td>{r[keys.codSol] || ''}</td>
             </tr>
           ))}
 
